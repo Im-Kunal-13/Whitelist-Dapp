@@ -1,67 +1,67 @@
 export const WHITELIST_CONTRACT_ADDRESS =
-  "0x78c42Dd6F6C19bd7578C269dae0b7016Fe828796";
+  "0x6Bd5B807438B3811553b001ffB7d5e7692F4dfFA";
 export const abi = [
   {
-    inputs: [
+    "inputs": [
       {
-        internalType: "uint8",
-        name: "_maxWhitelistedAddresses",
-        type: "uint8",
-      },
+        "internalType": "uint8",
+        "name": "_maxWhitelistedAddresses",
+        "type": "uint8"
+      }
     ],
-    stateMutability: "nonpayable",
-    type: "constructor",
+    "stateMutability": "nonpayable",
+    "type": "constructor"
   },
   {
-    inputs: [],
-    name: "addAddressToWhitelist",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
+    "inputs": [],
+    "name": "addAddressToWhitelist",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
   },
   {
-    inputs: [],
-    name: "maxWhitelistedAddresses",
-    outputs: [
+    "inputs": [],
+    "name": "maxWhitelistedAddresses",
+    "outputs": [
       {
-        internalType: "uint8",
-        name: "",
-        type: "uint8",
-      },
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
     ],
-    stateMutability: "view",
-    type: "function",
+    "stateMutability": "view",
+    "type": "function"
   },
   {
-    inputs: [],
-    name: "numAddressesWhitelisted",
-    outputs: [
+    "inputs": [],
+    "name": "numAddressesWhitelisted",
+    "outputs": [
       {
-        internalType: "uint8",
-        name: "",
-        type: "uint8",
-      },
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
     ],
-    stateMutability: "view",
-    type: "function",
+    "stateMutability": "view",
+    "type": "function"
   },
   {
-    inputs: [
+    "inputs": [
       {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
     ],
-    name: "whitelistedAddresses",
-    outputs: [
+    "name": "whitelistedAddresses",
+    "outputs": [
       {
-        internalType: "bool",
-        name: "",
-        type: "bool",
-      },
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
     ],
-    stateMutability: "view",
-    type: "function",
-  },
+    "stateMutability": "view",
+    "type": "function"
+  }
 ];
